@@ -1,5 +1,5 @@
-import { StudentsList } from '../parts/students/StudentsList'
 import { NewStudentForm } from '../parts/students/NewStudentForm'
+import { StudentsList } from '../parts/students/StudentsList'
 
 function Root() {
   return (
@@ -7,11 +7,12 @@ function Root() {
       <div id="menu">
         <nav>
           <a>Students</a>
+          <a>Teachers</a>
         </nav>
       </div>
       <div id="main_page">
         <h2>My Students App</h2>
-        <hr />
+        <hr></hr>
         <NewStudentForm />
         <StudentsList />
       </div>
@@ -20,3 +21,5 @@ function Root() {
 }
 
 export default Root
+
+
