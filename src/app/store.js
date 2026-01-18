@@ -5,5 +5,6 @@ export default configureStore({
   reducer: {
     students: studentsReducer
   },
-  devTools: process.env.NODE_ENV !== 'production', // включаем DevTools
+  devTools: process.env.NODE_ENV !== 'production',
 })
+
