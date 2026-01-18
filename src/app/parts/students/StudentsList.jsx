@@ -13,7 +13,7 @@ export const StudentsList = () => {
 
   return (
     <div>
-      <h2>Students List</h2>
+      <h2>Students</h2>
       {dispStudents}
     </div>
   )
