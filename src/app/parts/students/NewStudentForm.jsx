@@ -42,6 +42,7 @@ export const NewStudentForm = () => {
           <label htmlFor="studentFirstName">First Name:</label>
           <input
             id="studentFirstName"
+            name="studentFirstName"
             value={firstName}
             onChange={onFirstNameChanged}
           />
@@ -50,6 +51,7 @@ export const NewStudentForm = () => {
           <label htmlFor="studentLastName">Last Name:</label>
           <input
             id="studentLastName"
+            name="studentLastName"
             value={lastName}
             onChange={onLastNameChanged}
           />
@@ -58,6 +60,7 @@ export const NewStudentForm = () => {
           <label htmlFor="studentAge">Age:</label>
           <input
             id="studentAge"
+            name="studentAge"
             type="number"
             value={age}
             onChange={onAgeChanged}
@@ -67,14 +70,19 @@ export const NewStudentForm = () => {
           <label htmlFor="studentSpecialty">Specialty:</label>
           <input
             id="studentSpecialty"
+            name="studentSpecialty"
             value={specialty}
             onChange={onSpecialtyChanged}
           />
         </p>
-        <button type="button" onClick={onSaveStudentClick}>Save</button>
+        <button type="button" onClick={onSaveStudentClick}>
+          Save
+        </button>
       </form>
     </div>
   )
 }
+
+
 
 
